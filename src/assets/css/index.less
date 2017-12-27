@@ -1,0 +1,351 @@
+@rem: 69rem;
+
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+#my-douban {
+    height: 100%;
+    overflow: hidden;
+}
+
+//头部区域部分
+#app-head {
+    width: 100%;
+    height: 132/@rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #42bd56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search {
+    width: 1194/@rem;
+    height: 90/@rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    #searchbox {
+        width: 1092/@rem;
+        height: 90/@rem;
+        border-radius: 25/@rem;
+        padding: 0 90/@rem 0 90/@rem;
+        box-sizing: border-box;
+        font-size: 40/@rem;
+        font-family: "微软雅黑";
+        color: #cdcdcd;
+    }
+    .fangdajin,.saoyisao{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 60/@rem;
+        height: 60/@rem;
+    }
+    .fangdajin {
+        left: 10/@rem;
+    }
+    .saoyisao {
+        right: 120/@rem;
+    }
+    .news {
+        width: 70/@rem;
+        height: 55/@rem;
+    }
+    
+}
+//内容区域部分
+#content {
+    padding: 130/@rem 0 148/@rem 0;
+    height: 100%;
+    background-color: #f7f7f7;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+.home{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: #f7f7f7;
+}
+.banner {
+    width: 100%;
+    height: 413/@rem;
+    border-bottom: 1px solid #dfdfdf;
+    overflow: hidden;
+}
+.banner-list {
+    width: 400%;
+    height: 100%;
+}
+.banner-item {
+    float: left;
+    width: 1242/@rem;
+    height: 100%;
+    img{
+        width: 100%;
+    }
+}
+
+.hotnews {
+    padding: 0 60/@rem;
+    height: 1188/@rem;
+    background: #ffffff;
+}
+
+.hot-head {
+    height: 156/@rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .hot-title {
+        width: 100/@rem;
+        height: 60/@rem;
+//      border-left: 12/@rem solid #ff8447;
+        font-size: 48/@rem;
+        line-height: 60/@rem;
+        text-align: center;
+        position: relative;
+        color: #ff8447;
+    }
+    .hot-title:before {
+        content: '';
+        display: block;
+        width: 12/@rem;
+        height: 60/@rem;
+        position: absolute;
+        left: -60/@rem;
+        top: 0;
+        background: #ff8447;
+    }
+}
+.hotnews-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 10/@rem;
+    img {
+        width: 270/@rem;
+        height: 290/@rem;
+    }
+}
+
+.hotnews-text {
+    width: 770/@rem;
+    h6 {
+        margin-bottom: 27/@rem;
+        font-size: 52/@rem;
+        line-height: 72/@rem;
+        color: #494949;
+        
+    }
+    .info {
+        font-size: 36/@rem;
+        line-height: 56/@rem;
+        color: #9b9b9b;
+        margin-bottom: 37/@rem;
+    }
+    
+}
+.autor-info {
+        width: 100%;
+        height: 106/@rem;
+    }
+    .autor {
+        font-size: 36/@rem;
+        line-height: 56/@rem;
+        color: #cccccc;
+    }
+
+.douban-time {
+    height: 969/@rem;
+//  padding: 0 60/@rem;
+    .douban-time-head {
+        padding: 0 60/@rem;
+        height: 156/@rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .douban-time-title {
+            width: 300/@rem;
+            height: 60/@rem;
+
+            font-size: 48/@rem;
+            line-height: 60/@rem;
+            
+            position: relative;
+            color: #494949;
+        }
+        .douban-time-title:before {
+            content: '';
+            display: block;
+            width: 12/@rem;
+            height: 60/@rem;
+            position: absolute;
+            left: -60/@rem;
+            top: 0;
+            background: #42bd56;
+        }
+        .more {
+            width: 200/@rem;
+            height: 60/@rem;
+            font-size: 36/@rem;
+            line-height: 60/@rem;
+            color: #b4b4b4;
+            position: relative;
+        }
+        .more:after{
+            content: '';
+            display: inline-block;
+            width: 20/@rem;
+            height: 36/@rem;
+            background: url(../img/ic_seti_arrow_right_gray.png) no-repeat;
+            background-size: 20/@rem 36/@rem;
+            vertical-align: middle;
+            margin-left: 24/@rem;
+        }
+        
+    }
+}
+.douban-time-content {
+    height: 765/@rem;
+    overflow-y: hidden;
+    overflow-x: auto;
+    .douban-time-list {
+        padding: 15/@rem 15/@rem 15/@rem 60/@rem;
+        height: 733/@rem;
+        width: 3420/@rem;
+        .douban-time-item {
+            float: left;
+            width: 810/@rem;
+            height: 733/@rem;
+            margin-right: 45/@rem;
+            background: rgba(255,255,255,.6);
+            
+            .item-img {
+                width: 100%;
+                height: 269/@rem;
+                margin-bottom: 26/@rem;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .item-title {
+                padding: 0 45/@rem;
+                font-size: 42/@rem;
+                line-height: 68/@rem;
+                color: #494949;
+            }
+            .item-info {
+                padding: 0 45/@rem;
+                font-size: 30/@rem;
+                color: #acacac;
+                line-height: 54/@rem;
+                
+            } 
+            .author-info {
+                padding: 18/@rem 45/@rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                img {
+                    width: 120/@rem;
+                    height: 120/@rem;
+                    border-radius: 50%;
+                }
+                .author {
+                    width: 572/@rem;
+                    height: 138/@rem;
+                    .author-name {
+                        font-size: 34/@rem;
+                        line-height: 62/@rem;
+                    }
+                    p {
+                        width: 510/@rem;
+                        font-size: 30/@rem;
+                        line-height: 54/@rem;
+                        color: #9b9b9b;
+                    }
+                  
+                }
+            }
+            .check-item {
+                width: 718/@rem;
+                height: 94/@rem;
+                border: 1px solid #42BD56;
+                border-radius: 20/@rem;
+                font-size: 32/@rem;
+                line-height: 94/@rem;
+                text-align: center;
+                color: #42BD56;
+                margin: auto;
+            }
+        }
+    }
+}
+
+
+
+
+//底部导航区域
+#footnav {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 147/@rem; 
+   border-top: 1px solid #b2b2b2;
+   background-color: #ffffff;
+   
+}
+.m-tabbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .m-tabbar-item {
+        width: 248.4/@rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .m-tabbar-item-ico {
+            width: 100%;
+            height: 86/@rem;
+            text-align: center;
+            img {
+                
+                 width: 100/@rem;
+                 height: 100/@rem;
+            }
+        }
+        .m-tabbar-item-text {
+            width: 100%;
+            text-align: center;
+            font-size: 35/@rem;
+            line-height: 35/@rem;
+            color: #929292;
+            font-family: arial;
+            font-weight: bold;
+        }
+    }
+    .active {
+        .m-tabbar-item-text {
+            color: #42BD56;
+        }
+        
+    }
+}

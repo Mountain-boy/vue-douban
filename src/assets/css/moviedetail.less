@@ -1,0 +1,274 @@
+@rem: 69rem;
+
+#moviedetail{
+    height: 100%;
+}
+.movie-detail-head {
+    width: 100%;
+    height: 100%;
+    background: #061623;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 46/@rem;
+    line-height: 130/@rem;
+    color: #fff;
+    .back {
+        width: 260/@rem;
+        height: 130/@rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .backtext {
+            width: 260/@rem;
+            height: 130/@rem;
+            
+            text-align: center;
+        }
+        .backtext:before {
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+            width: 54/@rem;
+            height: 54/@rem;
+            background: url(../img/ic_bar_back_white.png) no-repeat;
+            background-size: 54/@rem 54/@rem;
+        }
+        
+    }
+    .movie-detail-title {
+        width: 260/@rem;
+        height: 130/@rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .title {
+            width: 100%;
+            height: 100%;
+        }
+        .title:before {
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+            width: 72/@rem;
+            height: 72/@rem;
+            background: url(../img/ic_subject_toolbar_movie.png) no-repeat;
+            background-size: 72/@rem 72/@rem;
+            margin-right: 18/@rem;
+        }
+    }
+    .share {
+        width: 180/@rem;
+        height: 130/@rem;
+        text-align: center;
+    }
+    .share:after {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        width: 72/@rem;
+        height: 72/@rem;
+        background: url(../img/live_share_icon.png) no-repeat;
+        background-size: 72/@rem 72/@rem;
+    }
+}
+#movie-detail-content {
+    padding-top: 132/@rem;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    overflow-y: auto;
+    background: #f3f7fa;
+}
+.movie-detail-img {
+    height: 1020/@rem;
+    background-color: #061623;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 662/@rem;
+        height: 928/@rem;
+    }
+}
+.movie-detail-info {
+    padding: 40/@rem 60/@rem;
+    height: 662/@rem;
+    box-sizing: border-box;
+    
+    .movie-intro{
+        height: 380/@rem;
+        display: flex;
+        justify-content: space-between;
+        
+        align-items: flex-start;
+        .text {
+            width: 785/@rem;
+        }
+        .movie-name {
+            font-size: 66/@rem;
+            line-height: 120/@rem;
+        }
+        .movie-style {
+            font-size: 32/@rem;
+            line-height: 40/@rem;
+            color: #9c9c9c;
+            .ori-name{
+                width: 100%;
+                
+            }
+        }
+        .judegment {
+            height: 253/@rem;
+            width: 253/@rem;
+            background: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .judge-title {
+                height: 45/@rem;
+                font-size: 28/@rem;
+                line-height: 44/@rem;
+                color: #cccccc;
+            }
+            .score {
+                font-size: 52/@rem;
+                line-height: 72/@rem;
+                color: #000;
+                font-weight: bold;
+            }
+            .judge-image {
+                height: 30/@rem;
+                width: 175/@rem;
+                text-align: center;
+                font-size: 0;
+                .star {
+                    width: 30/@rem;
+                    height: 30/@rem;
+                }
+            }
+            .see {
+                font-size: 26/@rem;
+                line-height: 36/@rem;
+            }
+            
+            
+        }
+        
+    }
+    .seewant {
+        height: 222/@rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        span {
+            width: 415/@rem;
+            height: 114/@rem;
+            border: 4/@rem solid #ffc06e;
+            border-radius: 20/@rem;
+            font-size: 38/@rem;
+            line-height: 114/@rem;
+            text-align: center;
+            font-family: "微软雅黑";
+            font-weight: bold;
+            color: #e9ad19;
+        }
+    }
+    
+    
+}
+
+.content-validity {
+    width: 100%;
+    height: 370/@rem;
+    margin-bottom: 45/@rem;
+    .validity-text {
+        box-sizing: border-box;
+        width: 100%;
+        height: 264/@rem;
+        height: ;
+        padding: 0 60/@rem;
+        font-size: 40/@rem;
+        line-height: 66/@rem;
+        color: #4b4c4e;
+        white-space: normal;
+    }
+    
+}
+.head {
+        padding: 0 60/@rem;
+        height: 106/@rem;
+        font-size: 38/@rem;
+        line-height: 106/@rem;
+        color: #969a9d;
+}
+.celebrity {
+    margin-bottom: 45/@rem;
+}    
+.celebrity-wrap {
+    height: 475/@rem;
+    overflow: hidden;
+    overflow-x: auto;
+    
+    .celebrity-list {
+        
+        width: 1515/@rem;
+        padding: 0 60/@rem;
+        height: 475/@rem;
+       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .celebrity-item {
+            width: 240/@rem;
+            height: 475/@rem;
+            
+            .celebrity-item-img {
+                width: 240/@rem;
+                height: 337/@rem;
+                margin-bottom: 15/@rem;
+                img{
+                    width: 240/@rem;
+                    height: 337/@rem;
+                }
+            }
+            .celebrity-item-name {
+                width: 100%;
+                font-size: 36/@rem;
+                color: #4d5154;
+                line-height: 50/@rem;
+            }
+            .position {
+                font-size: 34/@rem;
+                line-height: 50/@rem;
+                text-align: center;
+                color: #a0a4a7;
+            }
+            
+            
+        }
+    }
+}
+
+
+.stage-photo-wrap {
+    width: 100%;
+    height: 575/@rem;
+    overflow: hidden;
+    overflow-x: auto;
+    .stage-photo-list {
+        padding: 0 60/@rem;
+        width: 1335/@rem;
+        height: 480/@rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .stage-photo-item {
+            width: 660/@rem;
+            height: 480/@rem;
+            
+        }
+    }
+}

@@ -1,0 +1,251 @@
+#moviedetail {
+  height: 100%;
+}
+.movie-detail-head {
+  width: 100%;
+  height: 100%;
+  background: #061623;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.66666667rem;
+  line-height: 1.88405797rem;
+  color: #fff;
+}
+.movie-detail-head .back {
+  width: 3.76811594rem;
+  height: 1.88405797rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movie-detail-head .back .backtext {
+  width: 3.76811594rem;
+  height: 1.88405797rem;
+  text-align: center;
+}
+.movie-detail-head .back .backtext:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.7826087rem;
+  height: 0.7826087rem;
+  background: url(../img/ic_bar_back_white.png) no-repeat;
+  background-size: 0.7826087rem 0.7826087rem;
+}
+.movie-detail-head .movie-detail-title {
+  width: 3.76811594rem;
+  height: 1.88405797rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movie-detail-head .movie-detail-title .title {
+  width: 100%;
+  height: 100%;
+}
+.movie-detail-head .movie-detail-title .title:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.04347826rem;
+  height: 1.04347826rem;
+  background: url(../img/ic_subject_toolbar_movie.png) no-repeat;
+  background-size: 1.04347826rem 1.04347826rem;
+  margin-right: 0.26086957rem;
+}
+.movie-detail-head .share {
+  width: 2.60869565rem;
+  height: 1.88405797rem;
+  text-align: center;
+}
+.movie-detail-head .share:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.04347826rem;
+  height: 1.04347826rem;
+  background: url(../img/live_share_icon.png) no-repeat;
+  background-size: 1.04347826rem 1.04347826rem;
+}
+#movie-detail-content {
+  padding-top: 1.91304348rem;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  overflow-y: auto;
+  background: #f3f7fa;
+}
+.movie-detail-img {
+  height: 14.7826087rem;
+  background-color: #061623;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movie-detail-img img {
+  width: 9.5942029rem;
+  height: 13.44927536rem;
+}
+.movie-detail-info {
+  padding: 0.57971014rem 0.86956522rem;
+  height: 9.5942029rem;
+  box-sizing: border-box;
+}
+.movie-detail-info .movie-intro {
+  height: 5.50724638rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.movie-detail-info .movie-intro .text {
+  width: 11.37681159rem;
+}
+.movie-detail-info .movie-intro .movie-name {
+  font-size: 0.95652174rem;
+  line-height: 1.73913043rem;
+}
+.movie-detail-info .movie-intro .movie-style {
+  font-size: 0.46376812rem;
+  line-height: 0.57971014rem;
+  color: #9c9c9c;
+}
+.movie-detail-info .movie-intro .movie-style .ori-name {
+  width: 100%;
+}
+.movie-detail-info .movie-intro .judegment {
+  height: 3.66666667rem;
+  width: 3.66666667rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.movie-detail-info .movie-intro .judegment .judge-title {
+  height: 0.65217391rem;
+  font-size: 0.4057971rem;
+  line-height: 0.63768116rem;
+  color: #cccccc;
+}
+.movie-detail-info .movie-intro .judegment .score {
+  font-size: 0.75362319rem;
+  line-height: 1.04347826rem;
+  color: #000;
+  font-weight: bold;
+}
+.movie-detail-info .movie-intro .judegment .judge-image {
+  height: 0.43478261rem;
+  width: 2.53623188rem;
+  text-align: center;
+  font-size: 0;
+}
+.movie-detail-info .movie-intro .judegment .judge-image .star {
+  width: 0.43478261rem;
+  height: 0.43478261rem;
+}
+.movie-detail-info .movie-intro .judegment .see {
+  font-size: 0.37681159rem;
+  line-height: 0.52173913rem;
+}
+.movie-detail-info .seewant {
+  height: 3.2173913rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.movie-detail-info .seewant span {
+  width: 6.01449275rem;
+  height: 1.65217391rem;
+  border: 0.05797101rem solid #ffc06e;
+  border-radius: 0.28985507rem;
+  font-size: 0.55072464rem;
+  line-height: 1.65217391rem;
+  text-align: center;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  color: #e9ad19;
+}
+.content-validity {
+  width: 100%;
+  height: 5.36231884rem;
+  margin-bottom: 0.65217391rem;
+}
+.content-validity .validity-text {
+  box-sizing: border-box;
+  width: 100%;
+  height: 3.82608696rem;
+  height: ;
+  padding: 0 0.86956522rem;
+  font-size: 0.57971014rem;
+  line-height: 0.95652174rem;
+  color: #4b4c4e;
+  white-space: normal;
+}
+.head {
+  padding: 0 0.86956522rem;
+  height: 1.53623188rem;
+  font-size: 0.55072464rem;
+  line-height: 1.53623188rem;
+  color: #969a9d;
+}
+.celebrity {
+  margin-bottom: 0.65217391rem;
+}
+.celebrity-wrap {
+  height: 6.88405797rem;
+  overflow: hidden;
+  overflow-x: auto;
+}
+.celebrity-wrap .celebrity-list {
+  width: 21.95652174rem;
+  padding: 0 0.86956522rem;
+  height: 6.88405797rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.celebrity-wrap .celebrity-list .celebrity-item {
+  width: 3.47826087rem;
+  height: 6.88405797rem;
+}
+.celebrity-wrap .celebrity-list .celebrity-item .celebrity-item-img {
+  width: 3.47826087rem;
+  height: 4.88405797rem;
+  margin-bottom: 0.2173913rem;
+}
+.celebrity-wrap .celebrity-list .celebrity-item .celebrity-item-img img {
+  width: 3.47826087rem;
+  height: 4.88405797rem;
+}
+.celebrity-wrap .celebrity-list .celebrity-item .celebrity-item-name {
+  width: 100%;
+  font-size: 0.52173913rem;
+  color: #4d5154;
+  line-height: 0.72463768rem;
+}
+.celebrity-wrap .celebrity-list .celebrity-item .position {
+  font-size: 0.49275362rem;
+  line-height: 0.72463768rem;
+  text-align: center;
+  color: #a0a4a7;
+}
+.stage-photo-wrap {
+  width: 100%;
+  height: 8.33333333rem;
+  overflow: hidden;
+  overflow-x: auto;
+}
+.stage-photo-wrap .stage-photo-list {
+  padding: 0 0.86956522rem;
+  width: 19.34782609rem;
+  height: 6.95652174rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.stage-photo-wrap .stage-photo-list .stage-photo-item {
+  width: 9.56521739rem;
+  height: 6.95652174rem;
+}
